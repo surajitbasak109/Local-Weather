@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 88.43,
+        "lat": 26.7
+    },
+    "weather": [{
+        "id": 500,
+        "main": "Rain",
+        "description": "light rain",
+        "icon": "10n"
+    }],
+    "base": "stations",
+    "main": {
+        "temp": 287.988,
+        "pressure": 892.76,
+        "humidity": 97,
+        "temp_min": 287.988,
+        "temp_max": 287.988,
+        "sea_level": 1025.41,
+        "grnd_level": 892.76
+    },
+    "wind": {
+        "speed": 0.33,
+        "deg": 16.003
+    },
+    "rain": {
+        "3h": 0.2625
+    },
+    "clouds": {
+        "all": 36
+    },
+    "dt": 1480082680,
+    "sys": {
+        "message": 0.1279,
+        "country": "IN",
+        "sunrise": 1480034020,
+        "sunset": 1480072389
+    },
+    "id": 1256525,
+    "name": "Shiliguri",
+    "cod": 200
+}

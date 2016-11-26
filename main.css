@@ -1,0 +1,77 @@
+body {
+    margin-top: 50px;
+}
+
+span.temp {
+    display: block;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+span.fehrenheit {
+    position: relative;
+    display: none;
+}
+
+span.celsius {color: green;}
+
+span.fehrenheit {
+    color: #337ab7;
+}
+
+.btn-default.active {
+    background-color: #089e08;
+    color: #fff;
+}
+.btn-default.active:hover {
+    background-color: #49b733;
+    color: #fff;    
+}
+
+p.w-desc {
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+h2.wh {
+    font-size: 4em;
+    font-family: 'Lobster Two', cursive;
+}
+
+p.w-icon {
+    text-align: center;
+}
+
+.cd {
+    font-size: 1.2em;
+}
+
+.additional_info {
+    font-size: 1.3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.additional_info span {
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 8px 4px 8px 10px;
+    background: #e4e4e4;
+}
+
+.additional_info span:first-child {
+    border-radius: 3px 0 0 3px;
+}
+
+.additional_info span:last-child {
+    border-radius: 0 3px 3px 0;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS for toggle button -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Local Weather App</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="wh text-center">Weather App</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="toggle-button text-center">
+                    <label class="toggle">
+                        <input id="toggle" type="checkbox" data-toggle="toggle" data-off="&deg;C" data-on="&deg;F">
+                    </label>
+                </div>
+                <div id="weather_report" class="weather-update">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <!-- Script for toggle button -->
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <!-- Script for app -->
+    <script src="app.js"></script>
+</body>
+
+</html>
